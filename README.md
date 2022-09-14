@@ -16,12 +16,7 @@ This is an app with search and filtering tools that enable users to build and bo
 # Getting Started
 Clone down this repository. A basic Rack app is located in the backend folder.
 
-First, cd into the backend folder
-
-# run
-                             bundle install 
-in your backend folder to install your gems.
-
+First, cd into the backend folder and run bundle install in your backend folder to install your gems.
 
 The app/application.rb file has an example GET route. Replace this route with routes for your project!
 
@@ -38,3 +33,4 @@ Your React app should make fetch requests to your Rack backend! Here's an exampl
 fetch("http://localhost:9292/test")
   .then((res) => res.json())
   .then(console.log);
+[create-react-app]: https://create-react-app.dev/docs/getting-started
