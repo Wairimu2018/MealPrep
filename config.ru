@@ -1,5 +1,4 @@
-require 'rack/cors'
-require_relative "./config/environment.rb"
+require_relative "./config/environment"
 
 use Rack::Cors do
 
@@ -9,5 +8,6 @@ use Rack::Cors do
     end
 end
 
+use Rack::JSONBodyParser
 
-run Application.new
+run ApplicationController
